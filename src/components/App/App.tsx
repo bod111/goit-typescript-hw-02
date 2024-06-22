@@ -23,6 +23,7 @@ function App() {
     async function fetchPhotos()  {
       try {
         setLoading(true);
+        setError(false)
         const data = await getPhotosByQuery(topic, page);
         setPictures((prevPictures) => [...prevPictures, ...data.results]);
         setAllPages(data.total_pages);
