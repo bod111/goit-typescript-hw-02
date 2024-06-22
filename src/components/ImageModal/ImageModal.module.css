@@ -1,0 +1,46 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.modal {
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 200px);
+  align-items: center;
+  z-index: 3;
+}
+
+.descriptionBlock{
+  display: flex;
+  object-fit:contain;
+  gap: 30px;
+  color: #75a13c;
+  font-size: 15px;
+  align-items: baseline;
+  max-width: 1080px;
+}
+
+.description{
+  color: #f1ebeb;
+  max-width: 600px;
+}
+
+.text {
+  color: #f1ebeb;
+  font-size: 20px;
+  margin: 0 10px 0 3px;
+}
+
+.pic{
+  max-height: calc(100vh - 200px);
+}

@@ -1,0 +1,35 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d3c92;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 1210px;
+position: fixed;
+top: 0;
+}
+
+.btn {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  left: 360px;
+}
+
+.searchInput{
+  display: inline-block;
+  width: 500px;
+  font: inherit;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 50px;
+  padding-right: 4px;
+  margin: 10px;
+}
