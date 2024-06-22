@@ -20,6 +20,7 @@ function App() {
   const [error, setError] = useState<boolean>(false);
 
   useEffect(() => {
+    if (!topic) return;
     async function fetchPhotos()  {
       try {
         setLoading(true);
